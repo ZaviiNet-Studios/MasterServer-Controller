@@ -26,7 +26,8 @@ This project contains scripts for managing game servers using Docker containers.
 2) Modify the connection string in the DatabaseManager script to match your MySQL server setup
 3) Modify the ImagePath and PortPoolStart variables in the ServerStarter script to match your desired Docker image and starting port for the game servers
 4) Attach the ServerStarter and ServerStopper scripts to a game object in your scene
-5) Use the StartServer() and StopServer() methods of the ServerStarter and ServerStopper scripts to start and stop game servers
+5) Use the AddSever() To Add a new Server and RemoveServer() to remove idle Servers.
+
 
 
 ## API Reference
